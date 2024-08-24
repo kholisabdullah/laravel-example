@@ -38,7 +38,7 @@ return [
 Optionally, you can publish the views using
 
 ```bash
-php artisan vendor:publish --tag="laravel-example-views"
+php artisan vendor:publish --tag="example-views"
 ```
 
 ## Usage
