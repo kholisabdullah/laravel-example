@@ -3,6 +3,7 @@
 namespace Workbench\App\Commands;
 
 use KholisAbdullah\LaravelExample\Commands\LaravelExampleCommand;
+
 use function Pest\Laravel\artisan;
 
 test('can return defaultoutput', function () {

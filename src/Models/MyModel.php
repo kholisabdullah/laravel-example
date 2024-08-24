@@ -8,11 +8,16 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use KholisAbdullah\LaravelExample\Database\Factories\MyModelFactory;
 
+/**
+ * @property string $name
+ */
 class MyModel extends Model
 {
     use HasFactory;
 
-    protected $guarded = [];
+    protected $fillable = [
+        'name',
+    ];
 
     protected static $factory = MyModelFactory::class;
 
